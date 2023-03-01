@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 20px;
+}
+
+.car-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.car-list ul li {
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
+	padding: 20px;
+	background-color: #f1f1f1;
+	text-align: center;
+}
+
+.car-list ul li img {
+	max-width: 100%;
+}
+
+.buy-button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.buy-button:hover {
+	background-color: #555;
+}
+#carouselExampleIndicators{
+    justify-items: center;
+}
+#con h1{
+    background-color: aqua;
+}
+#con h2{
+    background-color: darkseagreen;
+}
